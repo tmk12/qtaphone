@@ -1,1 +1,25 @@
+# Wirtualne środowisko
 env/
+venv/
+
+# Pliki kompilacji Pythona
+*.pyc
+__pycache__/
+
+# Lokalna baza danych SQLite
+db.sqlite3
+
+# Pliki konfiguracyjne z wrażliwymi danymi
+*/settings.py
+
+# Folder statyczny i multimedialny
+static/
+staticfiles/
+media/
+
+# Pliki logów
+*.log
+
+# Specyficzne dla IDE
+.vscode/
+.idea/
