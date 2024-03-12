@@ -23,3 +23,21 @@ media/
 # Specyficzne dla IDE
 .vscode/
 .idea/
+
+# Node modules - zależności projektu React
+frontend/node_modules/
+
+# Pliki środowiskowe Node
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Build folder - zbudowane pliki projektu React
+frontend/build/
+
+# Pliki cache i logs npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
